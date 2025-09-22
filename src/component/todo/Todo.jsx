@@ -21,6 +21,7 @@ const Todo = () => {
     document.getElementById("textarea").style.display = "block";
     document.getElementById("add").style.display = "block";
   };
+  //hhhhhhhhhhhhhhhhhhhh
   const change = (e) => {
     const { name, value } = e.target;
     setInputs({ ...Inputs, [name]: value });
